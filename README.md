@@ -17,5 +17,5 @@
     ```
 * :link: 다운로드 링크: [GreenSock][greensock]
 
-[greensock]: https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger
+[greensock]: (https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger){:target="_blank"}
 ***
