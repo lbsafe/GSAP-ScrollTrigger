@@ -18,8 +18,9 @@
     <script src="/경로/gsap.min.js"></script>
     <script src="/경로/ScrollTrigger.min.js"></script>
     ```
-* :link: 다운로드 링크: <a href="https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger" target="_blank">GreenSock</a>
+* :link: 다운로드 링크 : [GreenSock][GreenSocklink]
 
+[GreenSocklink]: https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger "GreenSock"
 ***
 
 ### 2. 기본 사용옵션
@@ -95,5 +96,7 @@
 
 * **:four: 참고 링크**
 
-    :link: ease 옵션 링크: <a href="https://greensock.com/docs/v3/Eases" target="_blank">ease 옵션</a>
+    :link: ease 옵션 링크 : [GreenSock-ease][easelink]
+
+    [easelink]: https://greensock.com/docs/v3/Eases "GreenSock ease"
 ***
