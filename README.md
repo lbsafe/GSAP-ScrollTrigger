@@ -1,8 +1,9 @@
 # GSAP - ScrollTrigger
+<p align="center"><img src="https://user-images.githubusercontent.com/65703793/230003093-eac54ca5-f20a-4cb1-bd3c-afde73d871dd.png" alt="greensock" width="300px"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/65703793/230003145-85539aa5-d158-4450-96e6-823836489738.png" alt="scrolltrigger" width="300px"></p>
 
 ## GSAP - ScrollTrigger 에 대하여
 >GSAP - ScrollTrigger는 최소한의 코드로 놀라운 **스크롤 기반의 애니메이션**을 제작하는 무료 플러그인이다. 또한 애니메이션과 무관하더라도 스크롤을 응용한 모든 것에 유용하게 사용된다.
-
 ***
 
 ### 1. Setting
@@ -17,9 +18,8 @@
     <script src="/경로/gsap.min.js"></script>
     <script src="/경로/ScrollTrigger.min.js"></script>
     ```
-* :link: 다운로드 링크: [GreenSock][greensock]
+* :link: 다운로드 링크: <a href="https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger" target="_blank">GreenSock</a>
 
-[greensock]: https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger
 ***
 
 ### 2. 기본 사용옵션
@@ -69,7 +69,7 @@
         //어느 지점까지 어떤 효과를 줄 것인지 여러개 지정 가능
     }
     ```
-
+    
 * **:three: 콜백함수 응용법**
     ```js
     ScrollTrigger.create({
@@ -93,7 +93,5 @@
     })
     ```
 
-* :link: ease 옵션 링크: [ease 옵션][ease]
-
-[ease]: https://greensock.com/docs/v3/Eases
+* :link: ease 옵션 링크: <a href="https://greensock.com/docs/v3/Eases" target="_blank">ease 옵션</a>
 ***
