@@ -93,5 +93,7 @@
     })
     ```
 
-* :link: ease 옵션 링크: <a href="https://greensock.com/docs/v3/Eases" target="_blank">ease 옵션</a>
+* **:four: 참고 링크**
+
+    :link: ease 옵션 링크: <a href="https://greensock.com/docs/v3/Eases" target="_blank">ease 옵션</a>
 ***
