@@ -1,6 +1,6 @@
 # GSAP - ScrollTrigger
 
-<p align="center" style="background-color:#000;"><img src="https://user-images.githubusercontent.com/65703793/230003145-85539aa5-d158-4450-96e6-823836489738.png" alt="scrolltrigger" width="400px"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/65703793/230003145-85539aa5-d158-4450-96e6-823836489738.png" alt="scrolltrigger" width="400px"></p>
 
 ## GSAP - ScrollTrigger 에 대하여
 >GSAP - ScrollTrigger는 최소한의 코드로 놀라운 **스크롤 기반의 애니메이션**을 제작하는 무료 플러그인이다. 또한 애니메이션과 무관하더라도 스크롤을 응용한 모든 것에 유용하게 사용된다.
