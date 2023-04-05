@@ -15,4 +15,7 @@
     <script src="/경로/gsap.min.js"></script>
     <script src="/경로/ScrollTrigger.min.js"></script>
     ```
-* :link: 다운로드링크: <https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger>
+* :link: 다운로드 링크: [GreenSock][greensock]
+
+[greensock]: https://greensock.com/docs/v3/Installation?checked=core,scrollTrigger
+***
