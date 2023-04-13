@@ -1,0 +1,27 @@
+#wrap{width: 100%;}
+#fixed_box{position: relative; display: block;}
+section{position: relative; display: flex; width: 100%; height: 100vh;}
+
+.con_section{display: block; width: 50%; margin: 0 auto;}
+.con_section:after{content: ''; clear: both; visibility: hidden; display: block;}
+section div{position: relative; display: block; width: 26.0417vw; height: 28.6458vw; font-size: 5vw; text-align: center; border-radius: 2vw;}
+section div span{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100%;}
+.con_section .a{background-color: orangered; margin-bottom: 15vw;}
+.con_section .b{float: right; background-color: cornsilk;}
+
+.fixed_section{position: absolute; top: 0; left: 0; width: 100%; height: 100vh; background-color: black; color: #fff; font-size: 5.2083vw; font-weight: 700; text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.8);}
+.fixed_section p{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100%; text-align: center;}
+
+.top,
+.bottom{position: relative; width: 100%; height: 100vh; background-color: aliceblue; color: #000; font-size: 5.2083vw; font-weight: 700;}
+.top p,
+.bottom p{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100%; text-align: center;}
+.top p span{display: block; font-size: 3.5vw; color: hotpink; margin-top: 20px; text-shadow: 0px 0px 10px rgba(255, 105, 180, 0.5);}
+
+.con_section{position: relative; z-index: 1; padding-top: 140vh; padding-bottom: 160vh;}
+
+@media screen and (max-width:640px){
+    .top, .bottom, .fixed_section{font-size: 10vw;}
+    .top p span{font-size: 8vw;}
+    .con_section .a{margin-bottom: 50vw;}
+}
