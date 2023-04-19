@@ -67,7 +67,7 @@
         .to('.section p', {opacity: 1, scale: 1, rotate: "0.5deg"})
         .to('.test_02', {opacity: 1, y: 0, backgroundColor: #000})
         .to('.test_03', {opacity: 0, y: 20, x: 300})
-        .to('.test_03', {opacity: 0.5, y: 15, skew: "30deg"})
+        .to('.test_04', {opacity: 0.5, y: 15, skew: "30deg"})
         //어느 지점까지 어떤 효과를 줄 것인지 여러개 지정 가능
     }
     ```
