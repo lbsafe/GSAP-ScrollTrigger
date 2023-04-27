@@ -34,7 +34,7 @@
         gsap.to(".test", {
             scrollTrigger: {
                 trigger: ".test", // .test가 뷰포트에 도달 시 애니메이션 재생
-                y: 300 // transform:translateY(300px); 이동
+                y: 400 // transform:translateY(400px); 이동
             }
         });
     });
