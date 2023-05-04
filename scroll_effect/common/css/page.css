@@ -1,0 +1,34 @@
+section{position: relative; height: 100vh; background-color: black;}
+section p{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); color: #fff; font-size: 60px; font-weight: 700;}
+
+.event_section{height: 100%; background-color: royalblue;}
+.event_section .txt_wrap{position: relative; height: 100vh; background-color: green;}
+.event_section .txt_02,
+.event_section .txt_03,
+.event_section .txt_04,
+.event_section .txt_05{opacity: 0; transform: translateY(30px, -50%);}
+
+.big_section{height: 100%; background-color: azure;}
+.big_section .txt_wrap2{position: relative; height: 100vh; background-color: chocolate; overflow: hidden;}
+.big_section .txt_wrap2 .big_txt_01{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+.big_section .txt_wrap2 .big_txt_01 p{position: relative; top: auto; left: auto; transform: scale(7) rotate(.001deg); opacity: 0;}
+
+.swipe_section{height: 100%;}
+.swipe_section .txt_wrap3{position: relative; height: 100vh; overflow: hidden; background-color: red;}
+.swipe_section .txt_wrap3 .swipe_txt_01{position: absolute; top: 50%; left: auto; width: 100%; transform: translateY(-50%) rotate(-45deg);}
+.swipe_section .txt_wrap3 .swipe_txt_01 p{top: auto; left: -45%; white-space: nowrap;}
+.swipe_section .txt_wrap3 .swipe_txt{position: absolute; left: auto; width: 100%; transform: translateY(-50%) rotate(-45deg);}
+.swipe_section .txt_wrap3 .swipe_txt p{top: auto; left: -45%; white-space: nowrap;}
+.swipe_section .txt_wrap3 .swipe_txt_01{top: -20%;}
+.swipe_section .txt_wrap3 .swipe_txt_02{top: 60%;}
+.swipe_section .txt_wrap3 .swipe_txt_03{top: 140%;}
+
+.cross_section{height: 100%;}
+.cross_section .txt_wrap4{position: relative; height: 100vh; overflow: hidden; background-color: thistle;}
+.cross_section .txt_wrap4 .cross_txt{position: absolute; left: 50%; width: 100%; transform: translate(-50%,50%);}
+.cross_section .txt_wrap4 .cross_txt_01{top: 40%;}
+.cross_section .txt_wrap4 .cross_txt_02{top: 50%;}
+.cross_section .txt_wrap4 .cross_txt_03{top: 60%;}
+
+
+
