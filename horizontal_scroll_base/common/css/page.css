@@ -1,0 +1,21 @@
+
+
+
+/* body{width: 100%;} */
+#wrap{width: 100%; overflow: hidden;}
+#fixed_box{display: flex; flex-wrap: wrap; width: 500vw;}
+section{position: relative; display: flex; width: 100vw; height: 100vh;}
+section p{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-weight: bold; font-size: 10vw;}
+.a{background-color: red;}
+.b{background-color: orange;}
+.c{background-color: yellow;}
+.d{background-color: greenyellow;}
+.f{background-color: green;}
+
+.top{width: 100%; height: 100vh; background-color: black; color: #fff;}
+.bottom{width: 100%; height: 100vh; background-color: black; color: #fff;}
+
+
+@media screen and (max-width:767px){
+    #fixed_box{flex-wrap: wrap; width: 100vw;}
+}
