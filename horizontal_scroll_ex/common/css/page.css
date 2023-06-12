@@ -1,0 +1,64 @@
+
+
+
+/* body{width: 100%;} */
+#wrap{width: 100%; overflow: hidden;}
+#fixed_box{display: flex;}
+
+.left_menu{position: fixed; left: 0; top: 0; height: 100%; width: 80px; background-color: #fff; z-index: 1000; border-right: 1px solid #ccc;}
+.left_menu > a{position: absolute; top: 30px; left: 50%; transform: translateX(-50%) rotate(90deg); font-size: 34px; color: #333;}
+
+
+section{position: relative; display: flex; width: 100%; min-width: 100%; height: 100vh; letter-spacing: -0.5px;}
+section p{position: absolute; top: 50%; left: 50%; font-weight: bold; font-size: 9vw;}
+.section_01{background-image:url("../../images/img_01.png"); background-size: cover; background-position: center center; background-repeat: no-repeat;}
+.section_01 p{color: #fff; font-size: 4.4271vw; text-align: right; top: 12%; left: auto; right: 8%; text-shadow: 5px 5px 0.1vw rgba(51, 51, 51, 0.6); opacity: 0; transform: translateX(20px);}
+.section_02{background-color: #fff;}
+.section_02 .txt_box{position: absolute; top: 50%; left:45%; transform: translatey(-50%); text-align: left;}
+.section_02 .txt_box h2{color: #333; font-size: 4.4271vw; margin-bottom: 30px; opacity: 0; transform: translateX(-20px);}
+.section_02 .txt_box p{position: relative; left: 0; color: #333; font-size:0.9375vw; line-height: 1.8; opacity: 0; transform: translateX(-20px);}
+.section_02 .img_01{position: absolute; top: 50%; left: 10%; transform: translatey(-50%);}
+.section_02 .img_01 img{width: 27.0833vw;}
+.section_02 .img_02{position: absolute; bottom: 0; right: 0; text-align: right;}
+.section_02 .img_02 img{width:35.2083vw;}
+.section_03{background-color: #fff; min-width: 90%;}
+.section_03 .txt_box{position: absolute; top: 40%; left: 50%; transform: translateY(-50%);}
+.section_03 .txt_box h2{color: #333; font-size: 4.4271vw; margin-bottom: 30px; line-height: 1.4; opacity: 0; transform: translateX(-20px);}
+.section_03 .txt_box p{position: relative; left: 0; color: #333; font-size:0.9375vw; line-height: 1.8; opacity: 0; transform: translateX(-20px);}
+.section_03 .img_wrap{width: 42.0313vw;height: 100%;overflow: hidden;position: relative;}
+.section_03 .img_wrap img{position: absolute; top: 0; left: 50%; transform: translateX(-50%);}
+.section_04{background-color: #fff; min-width: 137%;}
+.section_04 .left_box{position: relative; top: 10%; z-index: 2;}
+.section_04 .left_box .img_wrap{width: 55.0521vw;}
+.section_04 .left_box .img_wrap img{width: 100%;}
+.section_04 .txt_box{text-align: right;}
+.section_04 .txt_box h2{color: #333; font-size: 3.6vw; margin-bottom: 20px; line-height: 1.4; opacity: 0;}
+.section_04 .left_box .txt_box h2{transform: translateX(20px);}
+.section_04 .right_box .txt_box{padding-right: 30px;}
+.section_04 .right_box .txt_box h2{transform: translateY(20px);}
+.section_04 .right_box .img_wrap{width: 68.1250vw;}
+.section_04 .right_box .img_wrap img{width: 100%;}
+.section_04 .txt_box p{position: relative; left: 0; color: #333; font-size:0.9375vw; line-height: 1.6; opacity: 0; transform: translateX(20px);}
+.section_04 .bg_circle{position: absolute; z-index: 1; bottom: -100%; left: -8%;}
+/* .section_04 .bg_circle img{ bottom: -100%; left: -8%; animation: ani_01 3.2s linear infinite; -webkit-animation: ani_01 3.2s linear infinite;}
+@keyframes ani_01{0% {bottom: -100%;}50% {bottom: -95%;}100% {bottom: -100%;}}
+@-webkit-keyframes ani_01{0% {bottom: -100%;}50% {bottom: -95%;}100% {bottom: -100%;}} */
+
+
+.section_04 .right_box{position: absolute; bottom: 0; right: 0; z-index: 2; display: flex; align-items: flex-end;}
+.section_04 .right_box .con div{line-height: 0;}
+
+.f{background-color: green;}
+
+.top{width: 100%; height: 100vh; background-image: url("../../images/main.PNG"); background-size: cover; background-position: center center; background-repeat: no-repeat;}
+.bottom{width: 100%; height: 100vh; background-color: #fff; color: #333;}
+.bottom p{opacity: 0; transform: scale(0.9); transform-origin: center center;}
+
+@media screen and (max-width:767px){
+    #fixed_box{flex-wrap: wrap;}
+    .section_01{}
+    .section_02{min-width: 100%;}
+    .section_03{}
+    .section_04{min-width: 100%;}
+    .section_05{}
+}
